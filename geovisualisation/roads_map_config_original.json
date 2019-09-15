@@ -1,0 +1,40 @@
+{
+  "layers": [
+    {
+        "type": "ol.layer.Tile",
+        "visible": false,
+        "wms": false,
+        "source": {
+            "type": "ol.source.OSM",
+            "config": {
+                "crossOrigin": null,
+                "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}.jpg"
+            }
+        }
+    },
+    {
+        "type": "ol.layer.Vector",
+        "visible": false,
+        "wms": true,
+        "source": {
+            "type": "ol.source.Vector",
+            "config": {
+                "url": "http://localhost:8000/hampshireRoads.json"
+            }
+        },
+        "style": {
+            "fill": {
+                "color": "#B29255"
+            },
+            "stroke": {
+                "color": "#715E3A",
+                "width": 4
+            }
+        },
+        "opacity": 0.7
+    }
+  ],
+  "center": ["-157081.37129179656", "6606026.977066623"],
+  "resolution": "77",
+  "zoom": "12"
+}

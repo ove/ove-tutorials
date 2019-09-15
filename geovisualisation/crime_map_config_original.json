@@ -1,0 +1,19 @@
+{
+  "layers": [
+    {
+        "type": "L.tileLayer",
+        "visible": false,
+        "wms": false,
+        "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}.jpg"
+    },
+    {
+        "type": "L.geoJSON",
+        "visible": true,
+        "wms": false,
+        "url": "http://localhost:8000/hampshireCrime.json"
+    }
+  ],
+  "center": ["-157081.37129179656", "6606026.977066623"],
+  "resolution": "77",
+  "zoom": "12"
+}

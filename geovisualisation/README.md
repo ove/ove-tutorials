@@ -1,0 +1,3 @@
+# Geovisualisation Tutorial
+
+This repository contains example files used by the [Geovisualisation Tutorial](https://ove.readthedocs.io/en/stable/docs/tutorials/GEOVISUALISATION.html) of OVE. Some of the content found in this repository were obtained from [Geofabrik](https://download.geofabrik.de/europe/great-britain/england/hampshire.html) and [DATA.POLICE.UK](https://data.police.uk/data/). No modifications have been made to the original data, but they have been transformed into the [GeoJSON](http://geojson.org/) format using various tools as described in the [Documentation](https://ove.readthedocs.io/en/stable/docs/tutorials/GEOVISUALISATION.html#summary).
